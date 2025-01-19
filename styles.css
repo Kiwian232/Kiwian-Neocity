@@ -1,0 +1,126 @@
+body {
+    background-image: linear-gradient(rgba(0, 183, 179, 0.0), rgba(0, 183, 179, 0.1), rgba(0, 183, 179, 0.2), rgba(0, 183, 179, 0.2), rgba(0, 183, 179, 1.0)), url('resources/pixian_hat_tiled_upscaled.png');
+    background-position: 0px 0px;
+    background-repeat: repeat;
+    image-rendering: pixelated;
+}
+
+a:link {
+  color: #eebbfc;
+}
+
+a:visited {
+  color: #a386fa;
+}
+
+a:hover {
+  color: #e06fff;
+}
+
+a.nav-button {
+  color: black;
+}
+
+img {
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  border: 3px double #e06fff;
+  padding: 10px 10px;
+  box-shadow: 6px 6px 0px 0px rgba(0, 0, 0, 0.6);
+  background-color: #fffc9c;
+  max-width: 95vw;
+}
+
+.sub-container {
+  background-color: #fffc9c;
+  max-width: 95%;
+}
+
+.text {
+  margin: 10px 10px;
+  font-size: 24px;
+  font-family: "PixiFontBDF", "PixiFontTTF", "Rockwell", "Arial";
+}
+
+.button {
+  border: 3px double #e06fff;
+  box-shadow: 6px 6px 0px 0px rgba(0, 0, 0, 0.4);
+  background-color: #fffc9c;
+  cursor: pointer;
+}
+
+.button:hover {
+  box-shadow: 8px 8px 0px 0px rgba(0, 0, 0, 0.6);
+}
+
+.center-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+#welcome-div-top {
+  margin: 15px auto;
+  width: 50%;
+  max-width: 90%;
+  min-width: 50%;
+  background-color: #fffc9c;
+}
+
+#welcome-div-bottom {
+  margin: 0 auto;
+}
+
+#navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.nav-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  background-color: #42fda6;
+  width: 15vw;
+  padding: 10px 0px;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+.nav-selected {
+  box-shadow: 8px 8px 0px 0px rgba(0, 0, 0, 0.6);
+  text-decoration: underline;
+  margin-top: 0px;
+}
+
+#banner-container {
+  width: inherit;
+  height: 316px;
+  overflow: hidden;
+  position: relative;
+}
+
+#banner {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top;
+}
+
+@font-face {
+    font-family: 'PixiFontBDF';
+    src: url('resources/PixiFont.bdf') format('bdf');
+}
+
+@font-face {
+    font-family: 'PixiFontTTF';
+    src: url('resources/PixiFont.ttf') format('truetype');
+}
